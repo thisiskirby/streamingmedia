@@ -47,7 +47,7 @@ table {
 }
 /*END OF CODE RESET*/
 
-/*SMALL SCREEN*/
+/*MOBILE FIRST*/
 html{
     background-color: #020659;
 }
@@ -71,6 +71,7 @@ nav a{
 nav h2{
     visibility: hidden;
 }
+
 
 /*HAMBURGER*/
 ul {
