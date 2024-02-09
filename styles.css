@@ -45,7 +45,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-/*END OF CODE RESET*/
+/*END OF CSSS RESET*/
 
 /*MOBILE FIRST*/
 html{
@@ -59,25 +59,80 @@ body{
 header{
     background: linear-gradient(to right, #2104d9, #020659);
     color: #fff;
-    padding: 20px;
     position: absolute;
+    z-index: 1;
+    width: 375px;
+    top: 50px;
 }  
+nav{
+    display: inline-block;
+    background-color:#020659;
+    position: absolute;
+    z-index: 2;
+    width: 375px;
+    height: 70px;
+    top:-10px;
+}
+li:first-child{
+    font-size: 1.25em;
+    font-variant: small-caps;
+    position: absolute;
+    z-index: 3;
+    margin: 10px;
+    top:25px;
+    left: 100px;
+
+}
 nav a{
     color: #fff;
     text-decoration: none;
     margin: 10px;
     padding: 5px;
+    
 }
 nav h2{
     visibility: hidden;
 }
-
+h1{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin: 10px 20px 10px 20px;
+    padding-top: 10px;
+}
+header p{
+    margin: 5px 20px 20px 20px;
+}
+main{
+    margin-top: 180px;
+    padding-top: 25px;;
+}
+h1{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+h2{
+    color: #590242;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+h3{
+    color: #590242;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+dt,dd{
+    color: #590242;
+}
 
 /*HAMBURGER*/
 ul {
     overflow: hidden;
     max-height: 0;
     transition: max-height .2s ease-out;
+    background-color: #020659;
 }
 label {
     cursor: pointer;
@@ -114,6 +169,10 @@ input {
 }
 input:checked ~ ul {
     max-height: 500px;
+    background-color: #020659;
+    font-size: 1em;
+    padding: 8px;
+
 }
 input:checked ~ label span {
     background: transparent;
@@ -135,9 +194,7 @@ dt{
 }
 /*FONT SIZES*/
 
-h1{
-    font-size: 1.25em;
-}
+
 h2,h3{
     font-size: 1em;
 }
@@ -148,7 +205,7 @@ footer p{
     font-size: 0.75em;
 }
 
-/*MORE TRENDING BUTTON*/
+/*BUTTONS*/
 #more{
     text-decoration: none;
     background-color: #590242;
@@ -161,6 +218,34 @@ footer p{
     margin: 10px 0 30px 32px;
 }
 #more:hover{
+    background-color: #020659;
+}
+#allplay{
+    text-decoration: none;
+    background-color: #590242;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 10px 0 30px 32px;
+}
+#allplay:hover{
+    background-color: #020659;
+}
+#morecurated{
+    text-decoration: none;
+    background-color: #590242;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 10px 0 30px 32px;
+}
+#morecurated:hover{
     background-color: #020659;
 }
 
