@@ -323,7 +323,6 @@ footer p{
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background: #fff;
 }
-
 /*AUDIO*/
 audio{
     position: absolute;
@@ -342,10 +341,7 @@ audio::-webkit-media-controls-enclosure {
     background-color: rgba(255,255,255,5);
     opacity: 50%;
 }
-
-
 /*MEDIUM SCREEN*/
-
 @media screen and (min-width:834px) {
     ul {
         overflow: visible;
